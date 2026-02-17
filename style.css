@@ -62,21 +62,44 @@ h4 {
 .logo-wrapper {
     display: flex;
     flex-direction: column;
+    text-decoration: none;
+    width: fit-content;
 }
 
-.logo {
-    color: var(--primary);
-    font-size: 28px;
-    font-weight: 800;
+.brand-logo-top {
+    background-color: var(--primary);
+    color: var(--secondary);
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.brand-logo-vsp {
+    font-size: 38px;
+    font-weight: 900;
     line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -2px;
 }
 
-.logo-subtext {
-    font-size: 9px;
-    font-weight: 700;
-    color: var(--secondary-dark);
-    letter-spacing: 1px;
-    margin-top: 4px;
+.brand-logo-tm {
+    font-size: 10px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: var(--gray);
+}
+
+.brand-logo-bottom {
+    background-color: var(--secondary);
+    color: var(--primary);
+    padding: 2px 10px;
+    font-size: 12px;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-family: 'Inter', sans-serif;
 }
 
 .nav ul {
